@@ -49,3 +49,28 @@ The main purpose of creating this project was to become familiar with:
 This project was a great opportunity to combine several Python concepts into a useful real-world tool while learning how programs can interact with the clipboard and store data for later use.
 
 > 💡 **From simple scripts to practical tools — every project is another step toward becoming a better Python programmer!** 🐍✨
+
+---
+
+## 🗂️ Project #3: Renaming Files with American-Style Dates to European-Style Dates
+
+The third project in this collection is **Renaming Files with American-Style Dates to European-Style Dates**.
+
+This program is designed to automate a repetitive file-renaming task. It scans the filenames in the current working directory, looks for names that contain dates in the **American format** `MM-DD-YYYY`, and renames them so the date appears in the **European format** `DD-MM-YYYY`.
+
+For example, a file named `report-03-15-2024.txt` would be renamed to `report-15-03-2024.txt`.
+
+### 🎯 Learning Goals
+
+The main purpose of creating this project was to become familiar with:
+
+* 🔍 Using regular expressions to detect patterns in filenames
+* 📂 Listing files in the current working directory with `os.listdir()`
+* 🔁 Looping through files and checking whether they match a pattern
+* ✍️ Renaming files with `shutil.move()`
+* 🧠 Working with capture groups in regex to rearrange text
+* ⚙️ Automating a boring but practical real-world task
+
+This project was a great exercise in combining file handling, regular expressions, and automation to solve a problem that would be tedious to do manually.
+
+> 💡 **A few lines of code can save hours of repetitive work.** 🐍✨
