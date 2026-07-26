@@ -74,3 +74,41 @@ The main purpose of creating this project was to become familiar with:
 This project was a great exercise in combining file handling, regular expressions, and automation to solve a problem that would be tedious to do manually.
 
 > 💡 **A few lines of code can save hours of repetitive work.** 🐍✨
+
+---
+
+## 🗜️ Project #4: Backing Up a Folder into a ZIP File
+
+The fourth project in this collection is **Backing Up a Folder into a ZIP File**.
+
+This program creates compressed backup snapshots of an entire folder and all of its contents. Each time the program is run, it automatically creates a new ZIP file with an incrementing number.
+
+For example:
+
+```text
+Project_1.zip
+Project_2.zip
+Project_3.zip
+```
+
+This makes it possible to keep multiple versions of a project without manually choosing backup filenames or accidentally overwriting an existing backup.
+
+The program allows the user to enter the path of the folder they want to back up and optionally choose where the ZIP file should be saved. If no backup path is provided, the backup is created in the current working directory.
+
+### 🎯 Learning Goals
+
+The main purpose of creating this project was to become familiar with:
+
+* 🗜️ Creating ZIP archives using Python's `zipfile` module
+* 📁 Recursively traversing folders and subfolders with `os.walk()`
+* 🔢 Automatically generating incrementing backup filenames
+* 🧭 Working with absolute and relative paths
+* 🛠️ Using `os.path.basename()`, `os.path.normpath()`, and `os.path.join()`
+* 📦 Adding files and folders to a ZIP archive
+* 🚫 Excluding previously created backup ZIP files from new backups
+* 💾 Creating compressed archives using `ZIP_DEFLATED`
+* ⌨️ Getting user input to make the program more flexible
+
+This project was a great opportunity to combine file-system navigation, path manipulation, ZIP file creation, and automation into a practical backup utility.
+
+> 💡 **Automating backups means protecting your work with just a few lines of code.** 🐍🗜️✨
