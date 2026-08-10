@@ -52,7 +52,7 @@ This project was a great opportunity to combine several Python concepts into a u
 
 ---
 
-## 🗂️ Project #3: Renaming Files with American-Style Dates to European-Style Dates
+## 🗂️ Project #3: Renaming Files with American-Style Dates to European-Style Dates (RD)
 
 The third project in this collection is **Renaming Files with American-Style Dates to European-Style Dates**.
 
@@ -77,7 +77,7 @@ This project was a great exercise in combining file handling, regular expression
 
 ---
 
-## 🗜️ Project #4: Backing Up a Folder into a ZIP File
+## 🗜️ Project #4: Backing Up a Folder into a ZIP File (BTZ)
 
 The fourth project in this collection is **Backing Up a Folder into a ZIP File**.
 
@@ -112,3 +112,25 @@ The main purpose of creating this project was to become familiar with:
 This project was a great opportunity to combine file-system navigation, path manipulation, ZIP file creation, and automation into a practical backup utility.
 
 > 💡 **Automating backups means protecting your work with just a few lines of code.** 🐍🗜️✨
+
+---
+
+## 🔍Project #5: Google Search (lucky)
+
+This project is a simple Python program designed to search Google from the command line and open the first five search results in separate browser tabs.
+
+**Note:**
+This program does **not currently work with Google's current search page structure**. Google has changed the way search results are delivered, so the HTML received by `requests` no longer contains the search results in the format expected by this project.
+
+The project was still completed for learning purposes. The goal was to practice and understand concepts such as:
+
+* Using `sys.argv` to receive command-line arguments
+* Sending HTTP requests with `requests`
+* Working with HTTP headers
+* Parsing HTML with `BeautifulSoup`
+* Selecting HTML elements with CSS selectors
+* Extracting links from HTML
+* Using `webbrowser` to open URLs
+* Combining multiple Python modules into a small practical program
+
+Therefore, although the program is not functional with Google's current implementation, it successfully served its purpose as a learning exercise.
