@@ -134,3 +134,40 @@ The project was still completed for learning purposes. The goal was to practice 
 * Combining multiple Python modules into a small practical program
 
 Therefore, although the program is not functional with Google's current implementation, it successfully served its purpose as a learning exercise.
+---
+
+## Project #6: XKCD Comic Downloader 🕷️🖼️(DX)
+
+A Python script to automate downloading the latest comics from the [XKCD](https://xkcd.com) webcomic using web scraping.
+
+### 📖 About The Project
+
+This project is a practice exercise designed to demonstrate web scraping, HTTP requests, and basic file system operations in Python. The script prompts the user for the number of recent comics they wish to save, navigates through XKCD using the "Previous" link structure, and saves each comic image locally.
+
+
+
+### 🎯 Key Learning Objectives
+
+Through building this project, the following core Python concepts and techniques were learned and practiced:
+
+* **Web Scraping with Beautiful Soup (`bs4`):**
+  * Parsing HTML documents with `BeautifulSoup`.
+  * Using CSS selectors (`soup.select_one`) to locate specific elements (like `#comic img` and `a[rel='prev']`).
+  * Extracting tag attributes (`src`, `href`).
+
+* **HTTP Requests (`requests`):**
+  * Fetching web pages and downloading binary assets (images) over HTTPS.
+  * Handling HTTP responses and using `raise_for_status()` for error detection.
+  * Efficiently saving large files in chunks using `iter_content()`.
+
+* **File System & Directory Management (`os`):**
+  * Programmatically creating folders (`os.makedirs`) with `exist_ok=True` to store downloaded files.
+  * Handling file paths and dynamic file extensions (`.png`, `.jpg`, `.gif`).
+
+* **Input Validation & Control Flow:**
+  * Writing robust user input validation loops with `try/except` blocks.
+  * Using limits on retries to prevent infinite loops.
+
+* **Terminal UI & Formatting:**
+  * Creating a real-time progress indicator using carriage return (`\r`) and string formatting (`:.2%`).
+
