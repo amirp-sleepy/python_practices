@@ -171,3 +171,31 @@ Through building this project, the following core Python concepts and techniques
 * **Terminal UI & Formatting:**
   * Creating a real-time progress indicator using carriage return (`\r`) and string formatting (`:.2%`).
 
+---
+
+## 🧹 Project #7: Removing the Header from CSV Files (RCH)
+
+The fifth project in this collection is **Removing the Header from CSV Files**.
+
+This program automates the process of removing the first row (header) from every `.csv` file in the current working directory.
+
+Instead of opening hundreds of CSV files manually, deleting their headers, and saving them one by one, the program finds all CSV files automatically, removes the first row, and replaces the original files with the updated versions.
+
+### 🎯 Learning Goals
+
+The main purpose of creating this project was to become familiar with:
+
+* 📄 Working with CSV files using Python's `csv` module
+* 🔍 Finding specific files with `os.listdir()`
+* 📊 Reading CSV data with `csv.reader()`
+* ✍️ Writing CSV data with `csv.writer()`
+* 🔢 Using the `line_num` attribute to identify the first row
+* 🔄 Replacing existing files with `os.replace()`
+* 🗂️ Working with temporary files during file modification
+* ⚠️ Understanding the importance of backing up files before modifying them
+
+This project was a useful exercise in combining file-system operations with structured data processing. It also showed how Python can automate repetitive tasks that would otherwise take hours to complete manually.
+
+> ⚠️ **Always back up important files before running programs that modify or replace them.**
+
+> 💡 **Let Python handle the repetitive work while you focus on more important things.** 🐍⚡

@@ -2,7 +2,7 @@ GRQF/quizzes
 GRQF/answers
 MCB/keyword
 DX/comics
-
+RCH/*.csv
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
